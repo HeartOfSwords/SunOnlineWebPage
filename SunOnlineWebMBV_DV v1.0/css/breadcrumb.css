@@ -1,0 +1,12 @@
+/*
+ * 此文件保存面包屑导航需要调整的样式
+ * 最终导入mobile.css
+ */
+.breadcrumb{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	box-shadow: 0px 0px 10px;
+}

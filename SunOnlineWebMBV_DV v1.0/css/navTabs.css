@@ -1,0 +1,14 @@
+/*
+ * 针对BootStrap的标签页实现的个人定制
+ */
+.pubClassTh-navTabs .nav{
+	margin-bottom: 1.2rem;
+}
+.pubClassTh-navTabs .nav-tabs {
+    border-bottom: 0px;
+}
+.pubClassTh-navTabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid transparent;
+    border-bottom-color: #f00;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,31 @@
+/*
+ * Higo、影视老司机、高校最强音三个模块的公用CSS
+ * 简称HOS
+ */
+.HOC-top-pic{
+	width: 100%;
+	height: 100%;
+}
+.HOC-top-pic img{
+	width: 100%;
+	height: 100%;
+}
+.HOC-panel-pic img{
+	width: 100%;
+	height: 100%;
+}
+.HOC-panel-title{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.HOC-page-roll{
+	    width: 100%;
+    text-align: center;
+}
+.HOC-panel-a{
+	text-decoration: none;
+	color: #000000;
+}

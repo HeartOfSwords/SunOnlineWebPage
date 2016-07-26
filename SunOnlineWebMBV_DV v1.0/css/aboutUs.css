@@ -1,0 +1,16 @@
+/*
+ * 存储关于我们页面的一些特殊样式
+ * 最终整合进入mobile.css
+ */
+
+.aboutUs-top-pic img{
+	height: 100%;
+}
+.aboutUs-blank{
+	height: 5rem;
+	width: 100%;
+}
+.company-intro-content {
+	display: none;
+}
+

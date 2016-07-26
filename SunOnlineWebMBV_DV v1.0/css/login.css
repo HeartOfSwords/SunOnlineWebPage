@@ -1,0 +1,74 @@
+/*
+ * 存储登录页面的CSS样式
+ */
+.login-body{
+	background: rgb(232, 236, 247);
+}
+.panel-login{
+	background: transparent;
+	border: 0px solid transparent;
+	text-align: center;
+	margin-top: 2rem;
+	box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+}
+.panel-login img{
+	width: 64%;
+}
+.panel-login-email{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4rem;
+	margin-bottom: 2rem;
+}
+.panel-login-pwd{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1rem;
+}
+.panel-login-email span,.panel-login-pwd span{
+	color: #ffd100;
+}
+.new-user-register{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: right;
+	margin-top: 1rem;
+}
+.new-user-register span{
+	font-size: 15px;
+}
+.panel-regis{
+	margin-top: 0.5rem;
+}
+.panel-regis span i{
+	color: #FFD100;
+}
+.btn-login-box{
+	width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 23px;
+}
+.btn-login{
+	width: 100%;
+	background-color: #FFD100;
+	border-color: #d8b107;
+	    height: 45px;
+}
+.regis-btn-reset{
+	background-color: #ff6700;
+	width: 80px;
+}
+.regis-btn-regis{
+	background-color: #FFD100;
+	width: 80px;
+}
+#regis-icon{
+	width: 3rem;
+}
+#myModalLabel{
+	line-height: 3rem;
+}

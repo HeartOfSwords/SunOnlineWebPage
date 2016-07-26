@@ -1,0 +1,116 @@
+/*
+ * 发行版
+ */
+*{
+	font-family: "微软雅黑";
+}
+html{
+	font-size: 62.5%;
+}
+.pubClassSec-pic{
+	width: 100%;
+	height: 175px;
+}
+.pubClassSec-pic img{
+	width: 100%;
+	height: 100%;
+}
+.pubClassSec-classList .panel{
+	margin-bottom: 0.5rem;
+}
+.pubClassTh .panel-default{
+	border-color: transparent;
+}
+.pubClassSec-classList .panel .panel-body{
+	font-size: 1.7rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.pubClassSec-classList .panel .panel-body a{
+	color: black;
+}
+/*
+ * 公益课堂三级页面课程简介部分内容样式
+ */
+.pubClassTh .class-intro-default{
+	width: 90%;
+	height: auto;
+	margin: 0rem auto;
+	border: 1px solid red;
+	font-size: 1.4rem;
+	
+}
+.pubClassTh .class-name{
+	height: 5rem;
+	line-height: 5rem;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pubClassTh .class-owner{
+	height: 5rem;
+	line-height: 5rem;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pubClassTh .class-content{
+	height: auto;
+}
+.pubClassTh .class-content .left{
+	display: block;	
+	width: 6rem;
+	height: auto;
+}
+.pubClassTh .class-content .right{
+	display: block;
+	width: auto;
+	height: auto;
+}
+.navbar{
+	margin-bottom: 0rem;
+}.footer{
+	background: rgba(206, 200, 200, 0.69);
+	text-align: center;
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	position: fixed;
+	bottom: 0px;
+	z-index: 9999;
+}
+.blank-block{
+	width: 100%;
+	height: 5rem;
+	margin-top: 1rem;
+}.panel-title{
+	font-size: 2rem;
+}
+.panel-group .panel+.panel {
+    margin-top: 13px;
+}
+.panel-heading img{
+	width: 100%;
+	height: 100%;
+	margin-top: 1rem;
+}
+.breadcrumb{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	box-shadow: 0px 0px 10px;
+}
+.pubClassTh-navTabs .nav{
+	margin-bottom: 1.2rem;
+}
+.pubClassTh-navTabs .nav-tabs {
+    border-bottom: 0px;
+}
+.pubClassTh-navTabs .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: 1px solid transparent;
+    border-bottom-color: #f00;
+    font-size: 1.5rem;
+}

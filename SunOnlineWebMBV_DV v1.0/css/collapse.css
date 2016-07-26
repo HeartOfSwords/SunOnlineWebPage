@@ -1,0 +1,15 @@
+/*
+ * 存储折叠插件的调整样式
+ * 最终将导入mobile.css文件
+ */
+.panel-title{
+	font-size: 2rem;
+}
+.panel-group .panel+.panel {
+    margin-top: 13px;
+}
+.panel-heading img{
+	width: 100%;
+	height: 100%;
+	margin-top: 1rem;
+}
