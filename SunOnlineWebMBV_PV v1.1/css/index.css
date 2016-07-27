@@ -1,0 +1,35 @@
+/*
+ * 发行版
+ */
+*{
+	font-family: "微软雅黑";
+}
+html{
+	font-size: 62.5%;
+}
+.footer{
+	background: rgba(206, 200, 200, 0.69);
+	text-align: center;
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	position: fixed;
+	bottom: 0px;
+	z-index: 9999;
+}
+.blank-block{
+	width: 100%;
+	height: 5rem;
+	margin-top: 1rem;
+}
+.navbar{
+	margin-bottom: 0rem;
+}
+.breadcrumb{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	box-shadow: 0px 0px 10px;
+}

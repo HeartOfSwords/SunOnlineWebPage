@@ -1,0 +1,62 @@
+/*
+ * 发行版
+ */
+*{
+	font-family: "微软雅黑";
+}
+html{
+	font-size: 62.5%;
+}
+.HOC-top-pic{
+	width: 100%;
+	height: 100%;
+}
+.HOC-top-pic img{
+	width: 100%;
+	height: 100%;
+}
+.HOC-panel-pic img{
+	width: 100%;
+	height: 100%;
+}
+.HOC-panel-title{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 17px;
+    margin-top: 7px;
+}
+.HOC-page-roll{
+	    width: 100%;
+    text-align: center;
+}
+.HOC-panel-a{
+	text-decoration: none;
+	color: #000000;
+}
+.navbar{
+	margin-bottom: 0rem;
+}
+.footer{
+	background: rgba(206, 200, 200, 0.69);
+	text-align: center;
+	width: 100%;
+	height: 5rem;
+	line-height: 5rem;
+	position: fixed;
+	bottom: 0px;
+	z-index: 9999;
+}
+.blank-block{
+	width: 100%;
+	height: 5rem;
+	margin-top: 1rem;
+}
+.breadcrumb{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	box-shadow: 0px 0px 10px;
+}
