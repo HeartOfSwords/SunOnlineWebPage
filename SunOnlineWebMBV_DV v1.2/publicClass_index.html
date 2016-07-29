@@ -1,0 +1,295 @@
+<!--公益课堂首页-->
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>公益课堂</title>
+
+		<!-- Bootstrap CSS-->
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<!--引入mobile.css-->
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" />
+		<!--引入footer.css，最终发行版删掉此CSS文件-->
+		<link rel="stylesheet" type="text/css" href="css/footer.css" />
+		<!--引入header.css，最终发行版删掉此CSS文件-->
+		<link rel="stylesheet" type="text/css" href="css/header.css" />
+		<!--引入collapse.css最终发新版删掉此CSS文件-->
+		<link rel="stylesheet" type="text/css" href="css/collapse.css"/>
+	</head>
+
+	<body>
+		<!--导航条部分开始需要抽取出来作为公共部分-->
+		<nav class="navbar navbar-default" id="top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+      				</button>
+					<img src="img/logo.png" />
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li>
+							<a href="index.html">首页</a>
+						</li>
+						<li>
+							<a href="HOCSecond.html">HIGO大学季</a>
+						</li>
+						<li>
+							<a href="publicClass_index.html">公益课堂</a>
+						</li>
+						<li>
+							<a href="HOCSecond.html">影视老司机</a>
+						</li>
+						<li>
+							<a href="HOCSecond.html">高校最强音</a>
+						</li>
+						<li>
+							<a href="aboutUs.html">关于我们</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">其他<span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">资讯速览</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">高校人物风采录</a>
+								</li>
+								<li role="separator" class="divider"></li>
+								<li>
+									<a href="#">山西高校图片库</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="login.html">注册</a>
+						</li>
+						<li>
+							<a href="login.html">登录</a>
+						</li>
+					</ul>
+					<!--用户登录后用于显示用户名和注销按钮，需要时解开注释-->
+					<!--<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">用户名：</a>
+						</li>
+						<li>
+							<a href="#">注销</a>
+						</li>
+					</ul>-->
+				</div>
+			</div>
+		</nav>
+		<!--导航条部分结束-->
+
+		<!--课程模块部分开始-->
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+				         	公益课堂&nbsp;/&nbsp;软件开发系列课程
+				        </a>
+      				</h4>
+      				<img src="img/software.jpg"/>
+				</div>
+				<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+					<div class="panel-body">
+						<!--课程列表开始-->
+						<div class="container">
+							<!--单行内容-->
+							<div class="row">
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="publicClass_second.html" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--课程列表结束-->
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+					<h4 class="panel-title">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+				          	公益课堂&nbsp;/&nbsp;影视后期系列课程
+				        </a>
+      				</h4>
+      				<img src="img/videolatter.jpg"/>
+				</div>
+				<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+					<div class="panel-body">
+						<!--课程列表开始-->
+						<div class="container">
+							<!--单行内容-->
+							<div class="row">
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--课程列表结束-->
+					</div>
+				</div>
+			</div>
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingThree">
+					<h4 class="panel-title">
+				        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+				          	公益课堂&nbsp;/&nbsp;播音主持系列课程
+				        </a>
+      				</h4>
+      				<img src="img/broadcast.jpg"/>
+				</div>
+				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+					<div class="panel-body">
+						<!--课程列表开始-->
+						<div class="container">
+							<!--单行内容-->
+							<div class="row">
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+								<!--每一行的单个内容-->
+								<div class="col-sm-6 col-md-4">
+									<div class="thumbnail">
+										<img src="img/smooc_lpp_html5.jpg" alt="课程图片">
+										<div class="caption">
+											<h3>Web前端开发教程</h3>
+											<p>主讲人：kingland</p>
+											<p style="text-align: right;">
+												<a href="#" class="btn btn-primary" role="button">点击学习</a>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--课程列表结束-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--课程模块部分结束-->
+
+		<!--footer部分开始,最后抽取为公共部分-->
+		<div class="blank-block">
+			
+		</div>
+		<div class="footer">
+				<span class="footer-content">(c)2015-2016 山西太阳在线</span>
+		</div>
+		<!--footer部分结束-->
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery-1.12.3.min.js" type="text/javascript" charset="utf-8"></script>
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+
+</html>

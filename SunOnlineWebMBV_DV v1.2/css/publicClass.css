@@ -1,0 +1,71 @@
+/*
+ * 此文件存储公益课堂页面的所有特有属性
+ */
+.pubClassSec-pic{
+	width: 100%;
+	height: 175px;
+}
+.pubClassSec-pic img{
+	width: 100%;
+	height: 100%;
+}
+.pubClassSec-classList .panel{
+	margin-bottom: 0.5rem;
+}
+.pubClassTh .panel-default{
+	border-color: transparent;
+}
+.pubClassSec-classList .panel .panel-body{
+	font-size: 1.7rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.pubClassSec-classList .panel .panel-body a{
+	color: black;
+}
+/*
+ * 公益课堂三级页面课程简介部分内容样式
+ */
+.pubClassTh .class-intro-default{
+	width: 90%;
+	height: auto;
+	margin: 0rem auto;
+	border: 1px solid red;
+	font-size: 1.4rem;
+	
+}
+.pubClassTh .class-name{
+	height: 5rem;
+	line-height: 5rem;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pubClassTh .class-owner{
+	height: 5rem;
+	line-height: 5rem;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pubClassTh .class-content{
+	height: auto;
+}
+.pubClassTh .class-content .left{
+	display: block;	
+	width: 6rem;
+	height: auto;
+}
+.pubClassTh .class-content .right{
+	display: block;
+	width: auto;
+	height: auto;
+}
+/*
+ * 为了实现标签页标签的真居中，增加如下属性
+ */
+.nav-center-king{
+	margin: 0 auto;
+    width: 246px;
+}
