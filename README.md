@@ -56,3 +56,14 @@
 	
 	1. 新增了grunt支持，目前使用uglify和cssmin
 	2. 之后新增其他的插件支持，都会通过小版本的方式添加
+
+---
+
+2016-7-29 新增SunOnlineWebMBV_DV v1.2.0
+
+2016-7-29 新增SunOnlineWebMBV_PV v1.2.0
+
+更新内容：
+
+	1. 本次更新内容新增了一个大模块，用来展示新闻列表和新闻内容，包含两个页面，分别是newsList.html和newsOne.html
+	2. Grunt新增了一些插件，jshint，htmlmin，clean。暂时似乎还用不到，就当是学习了。
