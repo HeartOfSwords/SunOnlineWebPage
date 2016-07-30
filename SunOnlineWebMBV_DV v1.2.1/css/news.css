@@ -1,0 +1,63 @@
+/**
+ * 存储新闻展示页面的所有CSS样式
+ */
+.newsList .panel{
+	margin-bottom: 0.5rem;
+}
+.newsList .panel .panel-body{
+	font-size: 1.7rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.newsList .panel .panel-body a{
+	color: black;
+}
+/**
+ * 16/7/30
+ * 新闻标题自带h1标签，所以需要规定一下样式
+ * kingland
+ */
+.newsList .panel .panel-body a h1{
+	display: inline;
+	font-size: 1.7rem;
+}
+.newsList .panel .panel-body .glyphicon{
+	color: #f7c515;
+}
+.news-return-top{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    top: 80%;
+    left: 88%;
+    background-color: gray;
+    opacity: 0.6;
+    text-align: center;
+}
+.news-return-top .glyphicon{
+	font-size: 30px;
+	line-height: 35px;
+	color: rgb(255, 152, 0);
+	opacity: 1;
+}
+.news-one li{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.news-one>.active{
+	width: 62%;
+}
+.panel-newsOne{
+	border-color: transparent;
+}
+.panel-newsOne .panel-heading{
+	color: #FF8C00;
+    background-color: #FFFF00;
+    border-color: #FFFF00;
+}
+.panel-body img{
+	width: 100%;
+	height: 100%;
+}
